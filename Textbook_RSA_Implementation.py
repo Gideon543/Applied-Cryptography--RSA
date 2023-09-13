@@ -70,15 +70,38 @@ def compute(P):
     print(f'Plaintext provided for encryption is {P}') 
 
     key = compute_key() 
-
     print(f'The computed key for both RSA encryption and decryption is (E = {key[0]}, N = {key[1]})') 
 
     C = encrypt(P,key)  
-
     print(f'RSA encrytion (C = P^E mod N) of the plaintext produces {C}') 
 
     P = decrypt(C, key) 
-
     print(f'RSA decrytion (P = C^D mod N) of the ciphertext produces {P}') 
 
     print() 
+
+# F(C) from the protocol diagram
+def attack (C, P, key): 
+    C = encrypt (P, key) 
+    return C 
+    
+# Demonstrating Malleability in RSA
+def malleability_demo(P, P_Fake): 
+
+    key = compute_key() 
+    print(f'Bob selects {P} as a key and encrypts it using Alice\'s public key (E = {key[0]}, N = {key[1]})') 
+
+    C = encrypt(P, key) 
+    print(f'Bob attempts to send his cipertext, {C}, to Alice') 
+
+    C_Fake = attack(C, P_Fake, key) 
+    print(f'Mallory intercepts and replaces Bob\'s cipertext with {C_Fake}, which she computes by using Alice\'s public key to encrypt her key, {P_Fake}') 
+
+    D = decrypt(C_Fake, key) 
+    print(f'When Alice decrypts Mallory\'s cipher, she gets {D}, which is the same as Mallory\'s key, {P_Fake}') 
+
+    print() 
+
+ 
+
+ 
