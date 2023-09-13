@@ -1,0 +1,137 @@
+Results from RSA-5 
+
+RSA-5 IMPLEMENTATION 
+
+==================== 
+
+Number of bits in primes is 5 
+
+Plaintext provided for encryption is 127 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 899) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 177 
+
+The decryption key computed with the Extend Euclidean algorithm = 593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 127 
+
+  
+
+Number of bits in primes is 5 
+
+Plaintext provided for encryption is 228 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 899) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 313 
+
+The decryption key computed with the Extend Euclidean algorithm = 593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 228 
+
+  
+
+Number of bits in primes is 5 
+
+Plaintext provided for encryption is 106 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 899) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 420 
+
+The decryption key computed with the Extend Euclidean algorithm = 593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 106 
+
+ 
+
+Results from RSA-8 
+
+RSA-8 IMPLEMENTATION 
+
+==================== 
+
+Number of bits in primes is 8 
+
+Plaintext provided for encryption is 241 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 46031) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 15424 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 241 
+
+  
+
+Number of bits in primes is 8 
+
+Plaintext provided for encryption is 318 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 46031) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 21919 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 318 
+
+  
+
+Number of bits in primes is 8 
+
+Plaintext provided for encryption is 303 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 46031) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 22106 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 303 
+
+ 
+
+ 
+
+Results from RSA-10 
+
+RSA-10 IMPLEMENTATION 
+
+==================== 
+
+Number of bits in primes is 10 
+
+Plaintext provided for encryption is 94 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 828389) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 499969 
+
+The decryption key computed with the Extend Euclidean algorithm = 630593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 94 
+
+  
+
+Number of bits in primes is 10 
+
+Plaintext provided for encryption is 115 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 828389) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 143897 
+
+The decryption key computed with the Extend Euclidean algorithm = 630593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 115 
+
+  
+
+Number of bits in primes is 10 
+
+Plaintext provided for encryption is 103 
+
+The computed key for both RSA encryption and decryption is (E = 65537, N = 828389) 
+
+RSA encryption (C = P^E mod N) of the plaintext produces 380267 
+
+The decryption key computed with the Extend Euclidean algorithm = 630593 
+
+RSA decryption (P = C^D mod N) of the ciphertext produces 103 
