@@ -1,0 +1,11 @@
+RSA-5 IMPLEMENTATION 
+
+==================== 
+
+Bob selects 12 as a key and encrypts it using Alice's public key (E = 65537, N = 551) 
+
+Bob attempts to send his ciphertext, 331, to Alice 
+
+Mallory intercepts and replaces Bob's ciphertext with 239, which she computes by using Alice's public key to encrypt her key, 45 
+
+When Alice decrypts Mallory's cipher, she gets 45, which is the same as Mallory's key, 45 
